@@ -1,0 +1,77 @@
+UNIT I
+Introduction to OOP, 
+procedural programming language and object oriented language, 
+principles of OOP, 
+applications of OOP, 
+history of java, 
+java features, 
+JVM, 
+program structure. Variables, 
+primitive data types, 
+identifiers, 
+literals, 
+operators, 
+expressions, 
+precedence rules and associativity, 
+primitive type conversion and casting, 
+flow of control.
+
+UNIT II
+Classes and objects, 
+class declaration, 
+creating objects, 
+methods, 
+constructors and constructor 
+overloading, 
+garbage collector, 
+importance of static keyword and examples, 
+this keyword, 
+arrays, 
+command line arguments, 
+nested classes, 
+String and string handling methods
+
+UNIT III
+Inheritance, 
+types of inheritance, 
+super keyword, 
+final keyword, 
+overriding and abstract
+class. Interfaces, 
+creating the packages, 
+using packages, 
+importance of CLASSPATH and java.lang package. 
+Exception handling, 
+importance of try, 
+catch, throw, throws and finally block, 
+user defined exceptions, 
+Assertions
+
+UNIT IV
+Multithreading: introduction, 
+thread life cycle, 
+creation of threads, 
+thread priorities, 
+thread synchronization, 
+communication between threads. 
+Reading data from files and writing data to files, 
+random access file. 
+Collections: Collections Hierarchy; 
+List - ArrayList, LinkedList; 
+Sets - HashSet, 
+TreeSet, 
+LinkedHashSet; 
+Queue; 
+Maps - HashMap, 
+TreeMap, 
+LinkedHashMap; 
+Iterable, 
+Iterator
+
+UNIT V
+Java FX GUI: Java FX Scene Builder, 
+Java FX App Window Structure, 
+displaying text and image, 
+event handling, 
+laying out nodes in scene graph, 
+mouse events

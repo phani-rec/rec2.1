@@ -1,0 +1,68 @@
+Exercise - 1 (Basics, Operators, Expressions) 
+a) Write a Java program to display default value of all primitive data type of Java
+b) Write a Java program that display the roots of a quadratic equation ax2
++bx=0. Calculate the 
+discriminate D and basing on value of D, describe the nature of root.
+c) Five Bikers Compete in a race such that they drive at a constant speed which may or may not be the 
+same as the other. To qualify the race, the speed of a racer must be more than the average speed of all 5 
+racers. Take as input the speed of each racer and print back the speed of qualifying racers. 
+d) Write a case study on public static void main(250 words)
+
+Exercise - 2 (Control-flow, Arrays) 
+a) Write a Java program to search for an element in a given list of elements using binary search 
+mechanism. 
+b) Write a Java program to sort for an element in a given list of elements using bubble sort
+Exercise – 3 (Class, Object)
+a) Write a Java program to implement class mechanism. – Create a class, methods and invoke them inside 
+main method. 
+c) Write a Java program to swap the pairs of characters of a string. If the string contains an odd number of 
+characters then the last character remains as it is.
+
+Exercise - 4 (Methods) 
+a) Write a Java program to implement constructor overloading. 
+b) Write a Java program implement method overloading. 
+
+Exercise - 5 (Inheritance) 
+a) Write a Java program to implement Single Inheritance
+b) Write a Java program to implement multi level Inheritance 
+c) Write a Java program give example for “super” keyword. 
+
+Exercise - 6 (Abstract Class, Interface) 
+a) Write a Java program for abstract class to find areas of different shapes
+b) Write a Java program to implement Interface. What kind of Inheritance can be achieved 
+
+Exercise – 7 (Packages) 
+a) Write a Java program illustrate class path 
+b) Write a case study on including in class path in your os environment of your package. 
+c) Write a Java program that import and use the defined your package in the previous Problem 
+
+Exercise - 8 (Exception) 
+a) Write a Java program that describes exception handling mechanism
+b) Write a Java program illustrating Multiple catch clauses 
+
+Exercise – 9 (Runtime Polymorphism) 
+a) Write a Java program that implements Runtime polymorphism 
+b) Write a case study on run time polymorphism, inheritance that implements in above problem 
+
+Exercise – 10 (User defined Exception) 
+a) Write a Java program to illustrating throw 
+b) Write a Java program to illustrating finally 
+c) Write a Java program to handle User Defined Exception 
+
+Exercise – 11 (Threads) 
+a) Write a Java program that creates threads by extending Thread class .First thread display “Good 
+Morning “every 1 sec, the second thread displays “Hello “every 2 seconds and the third display 
+“Welcome” every 3 seconds ,(Repeat the same by implementing Runnable) 
+b) Write a program illustrating isAlive and join () 
+
+Exercise - 12 (Collections)
+a) Write a Java program to update an array list element by the given element.
+b) Write a Java program to find numbers less than 7 in a tree set
+c) Write a Java program to check whether a map contains key-value mappings (empty) or not.
+
+Exercise - 13 (Java FX) 
+a) Write a Java program that import and use the user defined packages
+b) Without writing any code, build a GUI that display text in label and image in an ImageView (use 
+JavaFX)
+c) Build a Tip Calculator app using several JavaFX components and learn how to respond to user 
+interactions with the GU
