@@ -1,6 +1,6 @@
     public class ShortExample2  
     {  
-      public static void main(String...k)  
+      public static void main(String[] args)  
       {  
        short num=10.5;  
        System.out.println("num: "+num);  
