@@ -8,10 +8,10 @@ class ExplicitInt02
     public static void main(String args[])  
     {  
 		int i2=321321;
-		System.out.println("before conversion int type: "+i2);  
+		System.out.println("before conversion int : "+i2);  
 		byte b2=(byte)i2;
-		System.out.println("after conversion byte type: "+b2+" int type "+i2); 
+		System.out.println("after conversion byte : "+b2+" int  "+i2); 
 		short s2=(short)i2;
-		System.out.println("after conversion short type: "+s2+" int type "+i2); 
+		System.out.println("after conversion short : "+s2+" int  "+i2); 
     }  
     }  
