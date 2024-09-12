@@ -1,7 +1,7 @@
 procedural programming language and object oriented language
 
 What is Procedural Programming?
-
+--------------------------------
 You can define Procedural Programming as a programming model 
 derived from structural programming. It follows the concept 
 of the calling procedure. The procedures, also called functions, 
@@ -14,7 +14,7 @@ Procedural Programming Languages –
 BASIC, FORTRAN, COBOL, ALGOL, Pascal, and C.
 
 What is Object Oriented Programming?
-
+------------------------------------
 You can define Object Oriented Programming as a programming model
  that follows the concept of objects. The objects contain codes in the
  form of methods and data in the form of attributes. In the case of 
