@@ -1,0 +1,14 @@
+Introduction to OOP
+
+Object-Oriented Programming makes it easier to create modular, 
+reusable, and maintainable software.
+
+or
+
+Object-Oriented Programming (OOP) is a programming paradigm 
+that relies on the concept of Objects & Classes. 
+With the help of this core principle, designing code and
+ building software becomes much easier. 
+ Object-Oriented Programming makes it easier to create modular,
+ reusable, and maintainable software.
+ 
