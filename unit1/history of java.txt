@@ -1,0 +1,37 @@
+history of java
+
+Java is an Object-Oriented programming language developed by James Gosling 
+in the early 1990s. The team initiated this project to develop a language 
+for digital devices such as set-top boxes, television, etc. Originally C++ 
+was considered to be used in the project but the idea was rejected for 
+several reasons(For instance C++ required more memory). 
+Gosling endeavoured to alter and expand C++ however before long surrendered
+that for making another stage called Green. James Gosling and his team called 
+their project “Greentalk” and its file extension was .gt and later became to 
+known as “OAK”.
+
+Why “Oak”?
+..........
+The name Oak was used by Gosling after an oak tree that remained outside 
+his office. Also, Oak is an image of solidarity and picked as a national tree 
+of numerous nations like the U.S.A., France, Germany, Romania, etc. But they 
+had to later rename it as “JAVA” as it was already a trademark by Oak 
+Technologies. “JAVA” Gosling and his team did a brainstorm session and after 
+the session, they came up with several names such as JAVA, DNA, SILK, RUBY, 
+etc. Java name was decided after much discussion since it was so unique.
+
+The name Java originates from a sort of espresso bean, Java. Gosling came
+up with this name while having a coffee near his office. Java was created 
+on the principles like Robust, Portable, Platform Independent, High Performance,
+ Multithread, etc. and was called one of the Ten Best Products of 1995 by the 
+ TIME MAGAZINE. Currently, Java is used in internet programming, mobile devices, 
+ games, e-business solutions, etc. If you here, then it might be possible that 
+ you are interested in learning Java programming, explore free Java course to 
+ get full in-depth knowledge of Java.
+
+The Java language has experienced a few changes since JDK 1.0 just as various 
+augmentations of classes and packages to the standard library. In Addition to 
+the language changes, considerably more sensational changes have been made to 
+the Java Class Library throughout the years, which has developed from a couple 
+of hundred classes in JDK 1.0 to more than three thousand in J2SE 5. 
+

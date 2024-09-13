@@ -1,0 +1,62 @@
+OOPs is the most important and flexible paradigm of modern programming. 
+It is specifically useful in modeling real-world problems. 
+
+Below are some applications of OOPs:
+------------------------------------
+
+  Real-Time System design:
+  .......................
+	Real-time system inherits complexities and 
+	makes it difficult to build them. OOP techniques make it easier to 
+	handle those complexities.
+    
+  Hypertext and Hypermedia: 
+  ..........................
+	Hypertext is similar to regular text as 
+	it can be stored, searched, and edited easily. Hypermedia on the 
+	other hand is a superset of hypertext. OOP also helps in laying 
+	the framework for hypertext and hypermedia.
+    
+  AI Expert System:
+  .................
+	These are computer application that is developed
+	to solve complex problems which are far beyond the human brain.
+	OOP helps to develop such an AI expert System
+    
+  Office automation System: 
+  .........................
+	These include formal as well as informal 
+	electronic systems that primarily concerned with information sharing
+	and communication to and from people inside and outside the organization.
+	OOP also help in making office automation principle.
+    
+  Neural networking and parallel programming: 
+  ...........................................
+	It addresses the problem of prediction and approximation of 
+	complex-time varying systems. OOP simplifies the entire process 
+	by simplifying the approximation and prediction ability of the network.
+    
+	Stimulation and modeling system:
+	It is difficult to model complex 
+	systems due to varying specifications of variables. 
+	Stimulating complex systems require modeling and understanding
+	interaction explicitly. OOP provides an appropriate approach 
+	for simplifying these complex models.
+    
+  Object-oriented database: 
+  .............................
+	The databases try to maintain a direct 
+	correspondence between the real world and database object in order
+	to let the object retain it identity and integrity.
+    
+  Client-server system: 
+  .....................
+	Object-oriented client-server system provides
+	the IT infrastructure creating object-oriented server internet(OCSI) applications.
+    
+  CIM/CAD/CAM systems: 
+  ......................
+	OOP can also be used in manufacturing and 
+	designing applications as it allows people to reduce the efforts involved. 
+	For instance, it can be used while designing blueprints and flowcharts.
+	So it makes it possible to produce these flowcharts and blueprint accurately.
