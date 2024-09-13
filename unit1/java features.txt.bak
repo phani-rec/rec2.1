@@ -118,10 +118,7 @@ any machine on the internet.
 Multi-threaded
 ==============
 A thread is like a separate program, executing concurrently. 
-We can write Java programs that deal with many tasks at once by defining multiple
- threads. The main advantage of multi-threading is that it doesn't occupy memory
- for each thread. It shares a common memory area. Threads are important for 
- multi-media, Web applications, etc.
+We can write Java programs that deal with many tasks at once by defining multiple threads. The main advantage of multi-threading is that it doesn't occupy memory for each thread. It shares a common memory area. Threads are important for multi-media, Web applications, etc.
 
 Dynamic
 =======
