@@ -1,0 +1,89 @@
+primitive type conversion and casting
+
+
+Difference Between Type Casting and Type Conversion
+
+The two terms type casting and the type conversion are used in a program to convert one data type to another data type. 
+The conversion of data type is possible only by the compiler when they are compatible with each other. 
+Let's discuss the difference between type casting and type conversion in any programming language.
+What is a type casting?
+
+When a data type is converted into another data type by a programmer or user while writing a program code 
+of any programming language, the mechanism is known as type casting. The programmer manually uses it to 
+convert one data type into another. It is used if we want to change the target data type to another data type. 
+Remember that the destination data type must be smaller than the source data type. 
+Hence it is also called a narrowing conversion.
+
+Syntax:
+
+    Destination_datatype = (target_datatype) variable;  
+    (data_type) it is known as casting operator  
+
+Target_datatype: It is the data type in which we want to convert the destination data type. 
+The variable defines a value that is to be converted in the target_data type. 
+Let's understand the concept of type casting with an example.
+
+Suppose, we want to convert the float data type into int data type. Here, the target data type is smaller than 
+the source data because the size of int is 2 bytes, and the size of the float data type is 4 bytes. 
+And when we change it, the value of the float variable is truncated and convert into an integer variable. 
+Casting can be done with a compatible and non-compatible data type.
+
+    float b = 3.0;  
+    int a = (int) b; // converting a float value into integer  
+
+Let's understand the type casting through a C program.
+
+AreaOfRectangle.c
+
+    #include<stdio.h>  
+    #include<conio.h>  
+    void main()  
+    {  
+        printf("\n Welcome to Javatpoint tutorials ");  
+        float x = 3.5, y = 4.5;  // the size of float variable is 4 byte.  
+        int area; // the size of the int variable is 2 bytes.  
+        area = (int) x * y; // after conversion the product converts into integer  
+        printf("\n Area of a Rectangle is : %d", area);  
+        printf("\n Here, we convert float data type into the Int data type");  
+        getch();  
+    }  
+
+Output:
+Difference Between Type Casting and Type Conversion
+What is type conversion?
+
+If a data type is automatically converted into another data type at compile time is known as type conversion. 
+The conversion is performed by the compiler if both data types are compatible with each other. 
+Remember that the destination data type should not be smaller than the source type. 
+It is also known as widening conversion of the data type.
+
+Let's understand the type conversion with an example.
+
+Suppose, we have an int data type and want to convert it into a float data type. 
+These are data types compatible with each other because their types are numeric, 
+and the size of int is 2 bytes which is smaller than float data type. Hence, 
+the compiler automatically converts the data types without losing or truncating the values.
+
+    int a = 20;  
+    Float b;      
+    b = a; // Now the value of variable b is 20.000   /* It defines the conversion of 
+int data type to float data type without losing the information. */   
+
+In the above example, the int data type is converted into the float, which has a larger 
+size than int, and hence it widens the source data type.
+
+Let's understand type conversion through a C program.
+
+    #include<stdio.h>  
+    #include<conio.h>  
+    void main()  
+    {  
+        printf("\n Welcome to Javatpoint tutorials ");  
+        int x = 3, y = 4;  // the size of int variable is 2 byte.  
+        float area; // the size of float variable is 4 bytes.  
+        area =  x * y; 
+	/* It is a type conversion that automatically converted by the compiler at the compile time of a program. */  
+        printf("\n Area of a Rectangle is : %f", area);  
+        printf("\n Here, we convert int data type to the float data type");  
+        getch();  
+    }  

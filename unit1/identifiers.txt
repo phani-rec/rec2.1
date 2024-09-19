@@ -1,0 +1,65 @@
+identifiers
+
+Identifiers in Java
+
+Identifiers in Java are symbolic names used for identification. They can be a class name, 
+variable name, method name, package name, constant name, and more. However, In Java, 
+There are some reserved words that can not be used as an identifier.
+
+For every identifier there are some conventions that should be used before declaring them. 
+Let's understand it with a simple Java program:
+
+    public class HelloJava {  
+        public static void main(String[] args) {  
+            System.out.println("Hello world....");  
+        }  
+    }  
+
+Example of Valid and Invalid Identifiers
+
+Valid identifiers:
+
+Following are some examples of valid identifiers in Java:
+
+    TestVariable
+    testvariable
+    a
+    i
+    Test_Variable
+    _testvariable
+    $testvariable
+    sum_of_array
+    TESTVARIABLE
+    jtp123
+    JavaTpoint
+    Javatpoint123
+
+Invalid identifiers:
+
+Below are some examples of invalid identifiers:
+
+    Test Variable ( We can not include a space in an identifier)
+    123javatpoint ( The identifier should not begin with numbers)
+    java+tpoint ( The plus (+) symbol cannot be used)
+    a-javatpoint ( Hyphen symbol is not allowed)
+    java_&_Tpoint ( ampersand symbol is not allowed)
+    Java'tpoint (we can not use an apostrophe symbol in an identifier)
+
+We should follow some naming convention while declaring an identifier. However, these conventions 
+are not forced to follow by the Java programming language. That's why it is called conventions, 
+not rules. But it is good to follow them. These are some industry standards and recommended 
+by Java communities such as Oracle and Netscape.
+
+If we do not follow these conventions, it may generate confusion or erroneous code.
+
+Below is the list of reserved keywords in Java:
+
+abstract  	continue 	for    		Assert		protected	transient	
+Default		Goto
+public		Try		Boolean		Do		If		Static
+throws		break		double		implements	strictfp	Package
+byte		else		import		super		Private		case
+enum		Interface	Short		switch		Catch		Extends
+instanceof	return		void		Char		Final		Int
+synchronized	volatile	class		finally		long		throw
+Date		const		float		Native		This		while
