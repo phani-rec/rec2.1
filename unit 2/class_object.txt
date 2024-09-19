@@ -1,0 +1,159 @@
+Class Definition in Java
+
+In object-oriented programming, a class is a basic building block. 
+It can be defined as template that describes the data and behaviour 
+associated with the class instantiation. Instantiating is a class is 
+to create an object (variable) of that class that can be used to 
+access the member variables and methods of the class.
+
+A class can also be called a logical template to create the objects 
+that share common properties and methods.
+
+For example, an Employee class may contain all the employee details 
+in the form of variables and methods. If the class is instantiated 
+i.e. if an object of the class is created (say e1), we can access 
+all the methods or properties of the class.
+
+Defining a Class in Java
+
+Java provides a reserved keyword class to define a class. 
+The keyword must be followed by the class name. Inside the class, 
+we declare methods and variables.
+
+In general, class declaration includes the following in the order as it appears:
+------------------------------------------------------------------------------------
+1  Modifiers: A class can be public or has default access.
+
+2  class keyword: The class keyword is used to create a class.
+
+3  Class name: The name must begin with an initial letter (capitalized by convention).
+
+4  Superclass (if any): The name of the class's parent (superclass), if any, 
+    preceded by the keyword extends. A class can only extend (subclass) one parent.
+
+5  Interfaces (if any): A comma-separated list of interfaces implemented by the class, 
+    if any, preceded by the keyword implements. A class can implement more than one 
+    interface.
+  
+6  Body: The class body surrounded by braces, { }.
+----------------------------------------------------------------------------------------
+Syntax:
+
+    <access specifier> class class_name   
+    {  
+    // member variables   
+    // class methods   
+    }  
+
+Java Class Example
+Example 1:
+
+Let's consider the following example to understand how to define a class in Java 
+ and implement it with the object of class.
+
+Calculate.java
+
+    // class definition  
+    public class Calculate {  
+         
+       // instance variables  
+       int a;  
+       int b;  
+      
+       // constructor to instantiate  
+       public Calculate (int x, int y) {  
+          this.a = x;  
+          this.b = y;  
+       }  
+      
+       // method to add numbers  
+       public int add () {  
+          int res = a + b;  
+          return res;  
+       }  
+      
+       // method to subtract numbers  
+       public int subtract () {  
+          int res = a - b;  
+          return res;  
+       }  
+      
+       // method to multiply numbers  
+       public int multiply () {  
+          int res = a * b;  
+          return res;  
+       }  
+      
+       // method to divide numbers  
+       public int divide () {  
+          int res = a / b;  
+          return res;  
+       }  
+      
+      
+       // main method  
+       public static void main(String[] args) {  
+          // creating object of Class  
+          Calculate c1 = new Calculate(45, 4);  
+            
+          // calling the methods of Calculate class  
+          System.out.println("Addition is :" + c1.add());  
+          System.out.println("Subtraction is :" + c1.subtract());  
+          System.out.println("Multiplication is :" + c1.multiply());  
+          System.out.println("Division is :" + c1.divide());  
+      
+      
+       }  
+
+
+Example 2:
+
+In the following example, we are creating two classes Employee and EmployeeClass. 
+The Employee class fetches and displays the employee details. In the EmployeeClass,
+ we create the objects of Employee class and use its methods. Here, 
+we are initializing the objects using the class constructor.
+
+EmployeeClass.java
+
+    // class to get the employee details  
+    class Employee {  
+        // declaring variables  
+        int emp_id;  
+        String name;  
+        String dept;  
+        float salary;  
+      
+        // method to initialize the variables  
+        void add_info (int id, String n, String d, float sal) {  
+            this.emp_id = id;  
+            this.name = n;  
+            this.dept = d;  
+            this.salary = sal;  
+        }  
+      
+        // method to display the employee details  
+        void display() {  
+            System.out.println("Employee id: " + emp_id );  
+            System.out.println("Employee name: " + name );  
+            System.out.println("Employee department: " + dept );  
+            System.out.println("Employee salary: " + salary );  
+        }  
+    }  
+      
+    public class EmployeeClass {  
+        public static void main(String[] args) {  
+            // creating objects of class Employee  
+        Employee e1 = new Employee();    
+        Employee e2 = new Employee();    
+        Employee e3 = new Employee();    
+      
+        // calling the methods  
+        e1.add_info (101, "Naman", "Salesforce", 45000);    
+        e2.add_info (102, "Riya", "Tax", 25000);    
+        e3.add_info (103, "Anu", "Development", 55000);    
+          
+        e1.display();    
+        e2.display();    
+        e3.display();    
+        }  
+    }  
