@@ -1,4 +1,5 @@
 UNIT I
+---------------------------------------------
 1.1  Introduction to OOP, 
 1.2  procedural programming language and object oriented language, 
 1.3  principles of OOP, 
@@ -17,37 +18,37 @@ UNIT I
 1.16 flow of control.
 
 UNIT II
-Classes and objects, 
-class declaration, 
-creating objects, 
-methods, 
-constructors and constructor 
-overloading, 
-garbage collector, 
-importance of static keyword and examples, 
-this keyword, 
-arrays, 
-command line arguments, 
-nested classes, 
-String and string handling methods
+---------------------------------------------
+2.1 Classes and objects, 
+2.2 class declaration, 
+2.3 creating objects, 
+2.4 methods, 
+2.5 constructors and constructor overloading, 
+2.6 garbage collector, 
+2.7 importance of static keyword and examples, 
+2.8 this keyword, 
+2.9 arrays, 
+2.10 command line arguments, 
+2.11 nested classes, 
+2.12 String and string handling methods
 
 UNIT III
-Inheritance, 
-types of inheritance, 
-super keyword, 
-final keyword, 
-overriding and abstract
-class. Interfaces, 
-creating the packages, 
-using packages, 
-importance of CLASSPATH and java.lang package. 
-Exception handling, 
-importance of try, 
-catch, throw, throws and finally block, 
-user defined exceptions, 
-Assertions
+---------------------------------------------
+3.0 Inheritance, 
+3.1 types of inheritance, 
+3.2 super keyword, 
+3.3 final keyword, 
+3.4 overriding and abstract class. Interfaces, 
+3.5 creating the packages, 
+3.6 using packages, 
+3.7 importance of CLASSPATH and java.lang package. 
+3.8 Exception handling, 
+3.9 importance of try, catch, throw, throws and finally block, 
+3.10 user defined exceptions, 
+3.11 Assertions
 
 UNIT IV
+---------------------------------------------
 Multithreading: introduction, 
 thread life cycle, 
 creation of threads, 
@@ -69,6 +70,7 @@ Iterable,
 Iterator
 
 UNIT V
+---------------------------------------------
 Java FX GUI: Java FX Scene Builder, 
 Java FX App Window Structure, 
 displaying text and image, 

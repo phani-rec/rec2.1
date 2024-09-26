@@ -12,6 +12,7 @@ Exercise - 2 (Control-flow, Arrays)
 a) Write a Java program to search for an element in a given list of elements using binary search 
 mechanism. 
 b) Write a Java program to sort for an element in a given list of elements using bubble sort
+
 Exercise – 3 (Class, Object)
 a) Write a Java program to implement class mechanism. – Create a class, methods and invoke them inside 
 main method. 
