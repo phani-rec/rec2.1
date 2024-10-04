@@ -16,31 +16,33 @@ class RemoveDuplicates
         // Traversing character array  
         for (int i = 0; i < length; i++)   
         {   
-              
+              int j;
             // Check whether str[i] is present before or not   
-            int j;   
             for (j = 0; j < i; j++)    
             {   
-                if (str[i] == str[j])   
+              
+			  if (str[i] == str[j])   
                 {   
                     break;   
                 }   
             }   
     
-            // If the character is not present before, add it to resulting string   
+            // If the character is not present before, 
+			//add it to resulting string   
             if (j == i)    
             {   
-                str[index++] = str[i];   
+                str[index++] = str[i]; 
+				System.out.println(str[index++] +"i -"+i+" = "+ str[i]+" -j "+j);
             }   
         }   
-        System.out.println(String.valueOf(Arrays.copyOf(str, index)));   
+        //System.out.println(String.valueOf(Arrays.copyOf(str, index)));   
     }   
     
     // main() method starts  
     public static void main(String[] args)   
     {   
         String info = "phaneendra";  
-        //Converting string to character array  
+        
         char str[] = info.toCharArray();  
         //Calculating length of the character array  
         int len = str.length;   
