@@ -1,0 +1,23 @@
+1 The git init command creates a new Git repository.
+
+>git init
+
+2 The most basic use case for git config is to invoke it with a configuration name, 
+which will display the set value at that name. 
+
+>git config --global user.email "your_email@example.com"
+
+
+git commit command
+
+>git commit -m " message here"
+
+git push command
+
+> git push -u origin master
+
+to pull the code
+
+>git pull origin
+
+
