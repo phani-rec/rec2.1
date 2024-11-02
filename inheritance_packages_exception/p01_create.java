@@ -7,6 +7,7 @@ class Demo
 		System.out.println("package raghu creation");
 		System.out.println("complitation  process : javac -d directory javafilename  ");
 		System.out.println("complitation  process : javac -d . p01_create.java  ");
-		System.out.println("run  process : java raghu.Demo  ");
+		System.out.println("run  process 1 : java raghu.Demo  ");
+		System.out.println("run  process 2 : java raghu/Demo  ");
 	}  
 }  
