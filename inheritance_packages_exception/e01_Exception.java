@@ -13,8 +13,7 @@ class Exception01
 	public static void main(String[] args)
 	{
 		Exception01.hi();
-	}
-	
+	}	
 }
 /* 
 hi method
