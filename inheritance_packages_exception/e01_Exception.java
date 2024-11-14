@@ -17,6 +17,10 @@ class Exception01
 	
 }
 /* 
+hi method
+say hi method
 Exception in thread "main" java.lang.ArithmeticException: / by zero
-        at Exception01.main(e01_Exception.java:5)
+        at Exception01.sayhi(e01_Exception.java:11)
+        at Exception01.hi(e01_Exception.java:6)
+        at Exception01.main(e01_Exception.java:15)
 		*/
