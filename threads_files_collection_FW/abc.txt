@@ -1,0 +1,3 @@
+The File class is an abstract representation of file and directory pathname. A pathname can be either absolute or relative.
+
+The File class have several methods for working with directories and files such as creating new directories or files, deleting and renaming directories or files, listing the contents of a directory etc.
